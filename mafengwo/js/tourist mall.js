@@ -176,7 +176,7 @@
 	      },
 	        function(){
 	        	$(this).css('background','#fafafa');
-	            $(this).children().children('.nav-inco').css('background-position-x',2n+'px');
+	            $(this).children().children('.nav-inco').css('background-position-x','2'*n+'px');
 	          	$(this).children().children('p').removeClass('white');
 	        	
 	        }
